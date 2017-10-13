@@ -17,3 +17,5 @@ grap website's source files async, and save them to local disk  .
 ![](show.jpg)
 
 Then you can find the source files in your local disks..
+
+see more details at [blog.opengl.cc](blog.opengl.cc)
