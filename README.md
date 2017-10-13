@@ -1,7 +1,7 @@
 # grabSourceByHar
 grap website's source files async, and save them to local disk  .
 
-![](show.jpg)
+![](network.jpg)
 
 1. firstly,get the har file:
   - open your chrome browser,press F12, open the developer tools
@@ -13,5 +13,7 @@ grap website's source files async, and save them to local disk  .
 - change the har file name to yours
 - open this php file in your browser
 - wait until the page shows everything finished...
+
+![](show.jpg)
 
 Then you can find the source files in your local disks..
