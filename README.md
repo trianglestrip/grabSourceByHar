@@ -6,7 +6,7 @@ grap website's source files async, and save them to local disk  .
 1. firstly,get the har file:
   - open your chrome browser,press F12, open the developer tools
   - enter the website you want to get source files
-  - wait until the site load finined,then go to the `network` file list,select one file,right mouse click,`save as HAR with content`.
+  - wait until the site load finished,then go to the `network` file list,select one file,right mouse click,`save as HAR with content`.
   - save the xxxx.har file to your local disk.
   
 2. use this php code to load your har file
