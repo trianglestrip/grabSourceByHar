@@ -13,6 +13,7 @@
       curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
       curl_setopt($ch, CURLOPT_FRESH_CONNECT, true);
       curl_setopt($ch, CURLOPT_TIMEOUT, 0);
+      curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, FALSE);
       $buffer = curl_exec($ch);
       if(curl_errno($ch)) { 
           echo 'Curl error: ' . curl_error($ch).'<br>'; 
